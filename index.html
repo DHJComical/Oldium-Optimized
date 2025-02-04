@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oldium Optimized优化整合包 - Minecraft 1.12.2</title>
+    <link rel="icon" href="./image/oldium.png">
     <style>
         :root {
             --primary: #2c3e50;
@@ -14,67 +15,69 @@
         body {
             font-family: 'Segoe UI', system-ui, sans-serif;
             line-height: 1.6;
+            margin: 0;
+            min-height: 100vh;
+            /* 背景图设置 */
+            background: 
+                linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), /* 暗色遮罩层 */
+                url('./image/background.png') center/cover fixed;
+            color: #fff;
+        }
+
+        .container {
             max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
-            color: var(--primary);
+            backdrop-filter: blur(2px); /* 可选背景模糊效果 */
+        }
+
+        /* 通用半透明效果 */
+        .header, 
+        .section,
+        .compatibility {
+            background: rgba(45, 45, 45, 0.9); /* 深色半透明背景 */
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px); /* 毛玻璃效果 */
         }
 
         .header {
             text-align: center;
             padding: 2rem;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
+            margin: 2rem 0;
             border-radius: 10px;
-            margin-bottom: 2rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
         }
 
         .section {
-            background: #f8f9fa;
             padding: 1.5rem;
             border-radius: 8px;
             margin: 1.5rem 0;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         }
 
+        /* 徽章样式调整 */
         .badge {
-            display: inline-block;
-            padding: 0.25em 0.6em;
-            border-radius: 20px;
-            font-size: 0.9em;
-            margin: 0 0.3em;
+            backdrop-filter: brightness(1.2);
         }
 
-        .badge-warning {
-            background: #f1c40f;
-            color: black;
-        }
-
-        .badge-danger {
-            background: var(--accent);
-            color: white;
-        }
-
+        /* 表格样式适配 */
         table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 1.5rem 0;
+            background: rgba(255, 255, 255, 0.05);
         }
 
         th, td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         tr:nth-child(even) {
-            background-color: #f2f2f2;
+            background: rgba(255, 255, 255, 0.03);
         }
 
+        /* 兼容性区块调整 */
         .compatibility {
-            padding: 1rem;
             border-left: 4px solid;
             margin: 1rem 0;
+            padding: 1rem;
         }
 
         .windows {
@@ -84,42 +87,21 @@
         .android {
             border-color: #0984e3;
         }
-        /* 新增样式 */
-        .config-alert {
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
-            padding: 0.8rem;
-            margin: 0.5rem 0;
-            border-radius: 4px;
-        }
-
-        .config-alert code {
-            font-family: Consolas, monospace;
-            background: #f8f9fa;
-            padding: 2px 6px;
-            border-radius: 3px;
-            border: 1px solid #dee2e6;
-        }
 
         @media (max-width: 768px) {
-            body {
+            .container {
                 padding: 10px;
             }
             
             .header h1 {
                 font-size: 1.8rem;
             }
-            
-            table {
-                display: block;
-                overflow-x: auto;
-            }
         }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>Relictium优化整合包 <small>Minecraft 1.12.2</small></h1>
+        <h1>Oldium Optimized优化整合包 <small>Minecraft 1.12.2</small></h1>
         <p>高性能 | 移动端优化 | 现代UI体验</p>
     </div>
 
@@ -201,7 +183,7 @@
                 </div>
             </li>
             <li>
-                <strong>备选方案：</strong>Krypton Wrapper
+                <strong>备选方案：</strong><a href="https://github.com/BZLZHH/NG-GL4ES">Krypton Wrapper</a>
                 <span class="badge badge-danger">已知问题</span>
                 <ul>
                     <li>部分区块渲染异常</li>
@@ -214,7 +196,7 @@
 
         <div class="compatibility">
             <h3>光影支持</h3>
-            <p>❌ 暂不支持 (Oculus移植版开发停滞)</p>
+            <p>❌ 暂不支持 (<a href="https://github.com/Asek3/Oculus/tree/1.12.2">Oculus</a>移植版开发停滞)</p>
             <ul>
                 <li>最后提交：6个月前</li>
                 <li>构建状态：3次GitHub Actions失败</li>
