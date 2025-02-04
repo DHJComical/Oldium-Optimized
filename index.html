@@ -84,6 +84,22 @@
         .android {
             border-color: #0984e3;
         }
+        /* 新增样式 */
+        .config-alert {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border-radius: 4px;
+        }
+
+        .config-alert code {
+            font-family: Consolas, monospace;
+            background: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 3px;
+            border: 1px solid #dee2e6;
+        }
 
         @media (max-width: 768px) {
             body {
@@ -169,14 +185,32 @@
             <p>✅ 完全兼容</p>
         </div>
 
-        <div class="compatibility android">
-            <h3>Android</h3>
-            <ul>
-                <li>推荐渲染器：Holy Renderer</li>
-                <li>备选方案：Krypton Wrapper <span class="badge badge-danger">实验性功能</span></li>
-                <li>必须禁用：Smooth Font模组</li>
-            </ul>
-        </div>
+        <!-- 更新Android兼容性部分 -->
+    <div class="compatibility android">
+        <h3>Android</h3>
+        <ul>
+            <li>
+                <strong>必选渲染器：</strong>Holy Renderer 
+                <span class="badge badge-warning">性能关键</span>
+                <div class="config-alert">
+                    ⚠️ 使用此渲染器时必须禁用：
+                    <ul>
+                        <li><code>Use Compact Vertex Format</code> (紧凑顶点格式)</li>
+                        <li>Smooth Font模组</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <strong>备选方案：</strong>Krypton Wrapper
+                <span class="badge badge-danger">已知问题</span>
+                <ul>
+                    <li>部分区块渲染异常</li>
+                    <li>水面反射错误</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
 
         <div class="compatibility">
             <h3>光影支持</h3>
