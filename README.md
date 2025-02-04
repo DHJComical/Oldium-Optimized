@@ -40,7 +40,7 @@
 - Shaders currently unsupported
 
 ## License & Contribution
-This pack is licensed under **CC-BY-NC-SA 4.0**. You may:  
+This pack is licensed under **MIT**. You may:  
 - Create derivative modpacks  
 - Redistribute with attribution  
 - Report issues via:  
