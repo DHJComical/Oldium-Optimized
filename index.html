@@ -143,7 +143,7 @@
 <body>
     <div class="header">
         <h1>Oldium Optimized优化整合包 <small>Minecraft 1.12.2</small></h1>
-        <p>高性能 | 移动端优化 | 现代UI体验</p>
+        <p>高性能 | FCL优化 | 现代UI体验</p>
     </div>
 
     <div class="section">
@@ -156,22 +156,23 @@
     </div>
 
     <div class="section">
-        <h2>⚙️ 核心技术组件</h2>
+        <h2>⚙️ Mods</h2>
         <div class="compatibility windows">
             <h3>核心模组</h3>
             <ul>
-                <li><strong>Relictium</strong> - Sodium的1.12.2移植版 <span class="badge badge-warning">性能核心</span></li>
-                <li><strong>NeverEnoughAnimation</strong> - 增强物品动画系统</li>
-                <li><strong>Aqua Acrobatics</strong> - 现代版游泳机制</li>
+                <li><strong><a href="https://github.com/TheMade4/Relictium" style="text-decoration: none;color: #0984e3;">Relictium</a></strong> - Sodium的1.12.2移植版</li>
+                <li><strong><a href="https://github.com/Guichaguri/BetterFps" style="text-decoration: none;color: #0984e3;">BetterFPS</a></strong> - 更好的FPS</li>
             </ul>
         </div>
 
         <div class="compatibility android">
-            <h3>视觉增强</h3>
+            <h3>视觉增强(如造成卡顿可关闭)</h3>
             <ul>
-                <li>界面背景模糊效果</li>
-                <li>高版本风格加载界面 <span class="badge badge-warning">桌面端独占</span></li>
-                <li>平滑字体渲染</li>
+                <li><strong><a href="https://github.com/CleanroomMC/NeverEnoughAnimation" style="text-decoration: none;color: #0984e3;">NeverEnoughAnimation</a></strong> - 增强物品动画系统</li>
+                <li><strong><a href="https://github.com/embeddedt/aquaacrobatics" style="text-decoration: none;color: #0984e3;">Aqua Acrobatics</a></strong> - 现代版游泳机制</li>
+                <li><strong><a href="https://github.com/tterrag1098/Blur" style="text-decoration: none;color: #0984e3;">Blur</a></strong> - 界面背景模糊效果</li>
+                <li><strong><a href="https://github.com/kappa-maintainer/ModernSplash" style="text-decoration: none;color: #0984e3;">Modern Splash</a></strong> - 高版本加载界面 <span class="badge badge-warning">桌面端独占</span></li>
+                <li><strong><a href="https://www.curseforge.com/minecraft/mc-mods/smooth-font" style="text-decoration: none;color: #0984e3;">Smooth Font</a></strong> - 平滑字体</li>
             </ul>
         </div>
     </div>
@@ -200,7 +201,7 @@
                 <tr>
                     <td>天玑9200+ (Redmi K60 至尊版)</td>
                     <td>500~</td>
-                    <td>110</td>
+                    <td>110~</td>
                 </tr>
                 <tr>
                     <td>天玑9200+ (Redmi K60 至尊版) + Opt</td>
@@ -216,52 +217,57 @@
         <div class="compatibility windows">
             <h3>Windows</h3>
             <p>✅ 完全兼容</p>
-        </div>
 
         <!-- 更新Android兼容性部分 -->
-    <div class="compatibility android">
-        <h3>Android</h3>
-        <ul>
-            <li>
-                <strong>必选渲染器：</strong>Holy Renderer 
-                <span class="badge badge-warning">性能关键</span>
-                <div class="config-alert">
-                    ⚠️ 使用此渲染器时必须禁用：
-                    <ul>
-                        <li><code>Use Compact Vertex Format</code> (紧凑顶点格式)</li>
-                        <li>Smooth Font模组</li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                <strong>备选方案：</strong><a href="https://github.com/BZLZHH/NG-GL4ES" style="color: #3498db;">Krypton Wrapper</a>
-                <span class="badge badge-danger">已知问题</span>
-                <ul>
-                    <li>部分区块渲染异常</li>
-                    <li>水面反射错误</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-
-
-        <div class="compatibility">
-            <h3>光影支持</h3>
-            <p>❌ 暂不支持 (<a href="https://github.com/Asek3/Oculus/tree/1.12.2" style="color: #3498db;">Oculus</a>移植版开发停滞)</p>
+            <h3>Android</h3>
             <ul>
-                <li>最后提交：6个月前</li>
+                <li>
+                    <strong>首选渲染器：</strong>Holy Renderer <br>
+                    <span class="badge badge-warning">注意</span>
+                    <div class="config-alert">
+                        ⚠️ 使用此渲染器时必须禁用：
+                        <ul>
+                            <li><code>Use Compact Vertex Format</code> (紧凑顶点格式)</li>
+                            <li>Smooth Font模组</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <strong>备选方案：</strong><a href="https://github.com/BZLZHH/NG-GL4ES" style="color: #3498db; text-decoration: none;">Krypton Wrapper</a><br>
+                    <span class="badge badge-danger">已知问题</span>
+                    <ul>
+                        <li>部分区块渲染异常</li>
+                        <li>水面反射错误</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>不兼容的Mods</h3>
+            <ul>
+                <li>Optifine（不可能兼容）</li>
+                <li>FarPlaneTwo</li>
+                <li>LittleTiles</li>
+                <li>Fluidlogged API</li>
+                <li>ArchitectureCraft（无法渲染模组中的方块）</li>
+            </ul>
+        </div>
+    </div>
+    <div class="section">
+        <h2>光影支持</h2>
+        <div class="compatibility">
+            <p>❌ 暂不支持 (<a href="https://github.com/Asek3/Oculus/tree/1.12.2" style="color: #3498db; text-decoration: none;">Oculus</a>移植版开发停滞)</p>
+            <ul>
+                <li>最后提交：10个月前(截至2025.2.1)</li>
                 <li>构建状态：3次GitHub Actions失败</li>
             </ul>
         </div>
     </div>
-
     <div class="section">
         <h2>📜 使用许可</h2>
         <p>本整合包采用 <strong>MIT</strong> 协议：</p>
         <ul>
             <li>允许二次创作和重新分发</li>
             <li>需保留原始署名</li>
-            <li>问题反馈：<a href="mailto:DHJComical@gmail.com">DHJComical@gmail.com</a></li>
+            <li>问题反馈：<a href="mailto:DHJComical@gmail.com" style="color: #3498db; text-decoration: none;">DHJComical@gmail.com</a></li>
         </ul>
     </div>
 </body>
