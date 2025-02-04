@@ -6,6 +6,34 @@
     <title>Oldium Optimized优化整合包 - Minecraft 1.12.2</title>
     <link rel="icon" href="./image/oldium.png">
     <style>
+        /* 新增修复代码 */
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            backdrop-filter: blur(2px);
+        }
+
+        table {
+            width: 100%;
+            max-width: 100%;
+            display: table;
+            overflow-x: auto;
+        }
+
+        /* 修复第二行异常表格单元格 */
+        tr:nth-child(2) td:last-child {
+            content: "500~";
+        }
+
+        /* 优化大屏显示 */
+        
+
+        /* 原样式保留 */
         :root {
             --primary: #2c3e50;
             --secondary: #3498db;
@@ -15,29 +43,22 @@
         body {
             font-family: 'Segoe UI', system-ui, sans-serif;
             line-height: 1.6;
-            margin: 0;
-            min-height: 100vh;
-            /* 背景图设置 */
-            background: 
-                linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), /* 暗色遮罩层 */
-                url('./image/background.png') center/cover fixed;
-            color: #fff;
-        }
-
-        .container {
             max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
-            backdrop-filter: blur(2px); /* 可选背景模糊效果 */
+            color: var(--primary);
+            background: 
+                linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('./image/background.png') center/cover fixed;
+            color: #fff;
         }
-
-        /* 通用半透明效果 */
+        
         .header, 
         .section,
         .compatibility {
-            background: rgba(45, 45, 45, 0.9); /* 深色半透明背景 */
+            background: rgba(45, 45, 45, 0.9);
             border: 1px solid rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(5px); /* 毛玻璃效果 */
+            backdrop-filter: blur(5px);
         }
 
         .header {
@@ -55,25 +76,23 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         }
 
-        /* 徽章样式调整 */
         .badge {
             backdrop-filter: brightness(1.2);
         }
 
-        /* 表格样式适配 */
         table {
             background: rgba(255, 255, 255, 0.05);
         }
 
         th, td {
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            white-space: nowrap;
         }
 
         tr:nth-child(even) {
             background: rgba(255, 255, 255, 0.03);
         }
 
-        /* 兼容性区块调整 */
         .compatibility {
             border-left: 4px solid;
             margin: 1rem 0;
@@ -96,6 +115,28 @@
             .header h1 {
                 font-size: 1.8rem;
             }
+            
+            th, td {
+                white-space: normal;
+            }
+        }
+
+        .config-alert {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border-radius: 4px;
+            color: #333;
+        }
+
+        .config-alert code {
+            font-family: Consolas, monospace;
+            background: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 3px;
+            border: 1px solid #dee2e6;
+            color: #e83e8c;
         }
     </style>
 </head>
@@ -206,7 +247,7 @@
 
         <div class="compatibility">
             <h3>光影支持</h3>
-            <p>❌ 暂不支持 (<a href="https://github.com/Asek3/Oculus/tree/1.12.2">Oculus</a>移植版开发停滞)</p>
+            <p>❌ 暂不支持 (<a href="https://github.com/Asek3/Oculus/tree/1.12.2" style="color: #3498db;">Oculus</a>移植版开发停滞)</p>
             <ul>
                 <li>最后提交：6个月前</li>
                 <li>构建状态：3次GitHub Actions失败</li>
