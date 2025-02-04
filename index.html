@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relictium优化整合包 - Minecraft 1.12.2</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            color: var(--primary);
+        }
+
+        .header {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+
+        .section {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25em 0.6em;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin: 0 0.3em;
+        }
+
+        .badge-warning {
+            background: #f1c40f;
+            color: black;
+        }
+
+        .badge-danger {
+            background: var(--accent);
+            color: white;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .compatibility {
+            padding: 1rem;
+            border-left: 4px solid;
+            margin: 1rem 0;
+        }
+
+        .windows {
+            border-color: #00b894;
+        }
+
+        .android {
+            border-color: #0984e3;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Relictium优化整合包 <small>Minecraft 1.12.2</small></h1>
+        <p>高性能 | 移动端优化 | 现代UI体验</p>
+    </div>
+
+    <div class="section">
+        <h2>📌 项目背景</h2>
+        <p>专为移动端FCL启动器设计，解决低版本OptiFine在移动设备的性能瓶颈：</p>
+        <ul>
+            <li>常规地图平均帧率：70 FPS (2区块视距)</li>
+            <li>空岛地图平均帧率：100 FPS</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>⚙️ 核心技术组件</h2>
+        <div class="compatibility windows">
+            <h3>核心模组</h3>
+            <ul>
+                <li><strong>Relictium</strong> - Sodium的1.12.2移植版 <span class="badge badge-warning">性能核心</span></li>
+                <li><strong>NeverEnoughAnimation</strong> - 增强物品动画系统</li>
+                <li><strong>Aqua Acrobatics</strong> - 现代版游泳机制</li>
+            </ul>
+        </div>
+
+        <div class="compatibility android">
+            <h3>视觉增强</h3>
+            <ul>
+                <li>界面背景模糊效果</li>
+                <li>高版本风格加载界面 <span class="badge badge-warning">桌面端独占</span></li>
+                <li>平滑字体渲染</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📊 性能基准测试</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>硬件配置</th>
+                    <th>峰值FPS (静态场景)</th>
+                    <th>最低FPS (区块加载)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>E5-2666v3 + GTX 1660S @ 1080p</td>
+                    <td>870</td>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <td>天玑9200+ (Redmi K60 至尊版)</td>
+                    <td>500</td>
+                    <td>110</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>🔧 兼容性说明</h2>
+        <div class="compatibility windows">
+            <h3>Windows</h3>
+            <p>✅ 完全兼容</p>
+        </div>
+
+        <div class="compatibility android">
+            <h3>Android</h3>
+            <ul>
+                <li>推荐渲染器：Holy Renderer</li>
+                <li>备选方案：Krypton Wrapper <span class="badge badge-danger">实验性功能</span></li>
+                <li>必须禁用：Smooth Font模组</li>
+            </ul>
+        </div>
+
+        <div class="compatibility">
+            <h3>光影支持</h3>
+            <p>❌ 暂不支持 (Oculus移植版开发停滞)</p>
+            <ul>
+                <li>最后提交：6个月前</li>
+                <li>构建状态：3次GitHub Actions失败</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📜 使用许可</h2>
+        <p>本整合包采用 <strong>CC-BY-NC-SA 4.0</strong> 协议：</p>
+        <ul>
+            <li>允许二次创作和重新分发</li>
+            <li>需保留原始署名</li>
+            <li>问题反馈：<a href="mailto:DHJComical@gmail.com">DHJComical@gmail.com</a></li>
+        </ul>
+    </div>
+</body>
+</html>
