@@ -2,7 +2,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "Oldium Optimized",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "DHJComical",
   "description": "",
   "fileApi": "",
@@ -59,7 +59,7 @@
     },
     {
       "path": "config/blahajasm.cfg",
-      "hash": "7483653477f64fc354661de24cf49acee397d717",
+      "hash": "2db5997edcf1834d09269cc7f43bfd33edc65158",
       "force": true,
       "type": "addon"
     },
@@ -178,6 +178,12 @@
       "type": "addon"
     },
     {
+      "path": "config/flare/flare.cfg",
+      "hash": "ac001641de2637a4343219823379ac88cdcefb5d",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "config/foamfix.cfg",
       "hash": "1f1efe3f9181580dbebf36fc8b3ee9becd3ce8ed",
       "force": true,
@@ -233,7 +239,7 @@
     },
     {
       "path": "config/InvTweaks/InvTweaks.cfg",
-      "hash": "cf0a3dd07c6545b93023abd24aa3a1f09507ee42",
+      "hash": "7bda6e33ae6fbf61fa66d9c569a73b1b99647dcb",
       "force": true,
       "type": "addon"
     },
@@ -256,6 +262,168 @@
       "type": "addon"
     },
     {
+      "path": "config/itemzoom.cfg",
+      "hash": "c9f97733298b570779927db60262b04e08f0bee3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/custom_forms.json",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/main.toml",
+      "hash": "cc10168d322e3183f7093fb50b193f2e3d2973c3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/materials/brick.toml",
+      "hash": "a3aff0c835f9dc2c6422d3e4b7d7a72fd987c440",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/materials/brick_nether.toml",
+      "hash": "e1d79b010530f6b564cf8014cba228407e7455e1",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/materials/coal.toml",
+      "hash": "8dfe9a72bbdc95b51c2fc56567eab078505b7ed9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/materials/diamond.toml",
+      "hash": "12fb579fb98dbe8a1181cc6cd3aa47c0723921a3",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/materials/emerald.toml",
+      "hash": "4c366e6cb345b8eb110f1a75412db0f0f8ae3858",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/materials/glowstone.toml",
+      "hash": "7e18c64f756172fdce98cf90a3a214f0df0f5278",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/materials/gold.toml",
+      "hash": "741be25fa246ed82c82ebf8f2201ccd89492307b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/materials/iron.toml",
+      "hash": "c12a42bb3e642ff18c808e6fd6b4757457856ce4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/materials/lapis.toml",
+      "hash": "7d049d147a6de7a41d2aba448743c16cdead6e43",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/materials/prismarine.toml",
+      "hash": "3dea316f94e8865b22a7d40f26c0dcba852284eb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/materials/quartz.toml",
+      "hash": "fb7ada7c15f9843967a202050aec53ef05bb86a6",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/materials/redstone.toml",
+      "hash": "57aff61cb94ece222c4db47baa7e763d4064711a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/modules/block.toml",
+      "hash": "3d0f28d67f03c1004224f78c64f1ba46f2cd293a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/modules/coin.toml",
+      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/modules/custom.toml",
+      "hash": "3d0f28d67f03c1004224f78c64f1ba46f2cd293a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/modules/dense_plate.toml",
+      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/modules/dust.toml",
+      "hash": "3d0f28d67f03c1004224f78c64f1ba46f2cd293a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/modules/gear.toml",
+      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/modules/molten.toml",
+      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/modules/nugget.toml",
+      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/modules/plate.toml",
+      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/modules/small_dust.toml",
+      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/modules/stick.toml",
+      "hash": "15efac27d774beea50d7dc9abd8c4220f1728f28",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/jaopca/modules/tiny_dust.toml",
+      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "config/jei/itemBlacklist.cfg",
       "hash": "272b2d689662eda01576719002001a8ce457cccd",
       "force": true,
@@ -263,7 +431,7 @@
     },
     {
       "path": "config/jei/jei.cfg",
-      "hash": "0546032dc9c6e7e97c7099ae6eedaacc277ed5c0",
+      "hash": "a37842efb6e085e9279235789cb5d29480047fdf",
       "force": true,
       "type": "addon"
     },
@@ -275,7 +443,7 @@
     },
     {
       "path": "config/jei/worldSettings.cfg",
-      "hash": "d1f3fa0b1dca0543d28be47eeeae1ed0176f2427",
+      "hash": "3135383c2f0e2113a845cab622cc60f155b149b8",
       "force": true,
       "type": "addon"
     },
@@ -431,7 +599,7 @@
     },
     {
       "path": "config/splash.properties",
-      "hash": "51bb80450bb6139bb039860162d4c8906856539d",
+      "hash": "6c212fd0638a718700a678466e2fbb459c767748",
       "force": true,
       "type": "addon"
     },
@@ -449,7 +617,7 @@
     },
     {
       "path": "config/time.history",
-      "hash": "eddcadb83eb26ac4e1459d49c77585155a7c7135",
+      "hash": "fe3d74a5f9c473413395ff8ef67b5c59a5695222",
       "force": true,
       "type": "addon"
     },
@@ -462,6 +630,24 @@
     {
       "path": "config/topaddons_client.cfg",
       "hash": "19659d5dca93c8b3d44eb2c6f7bfa9c8249a149b",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/unidict/IntegrationModule.cfg",
+      "hash": "3e676dcef6f937186e1b544a805ca7485c063950",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/unidict/ModConfigModule.cfg",
+      "hash": "e3c9d2080889a03d61c8aec90bb14e91a7a5d3ab",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/unidict/UniDict.cfg",
+      "hash": "d4dbe088513f8a2ac10438ccc3e32d74b0f2943b",
       "force": true,
       "type": "addon"
     },
@@ -550,12 +736,6 @@
       "type": "addon"
     },
     {
-      "path": "mods/Baubles-1.12-1.5.2.jar",
-      "hash": "cb13fcfb18a9cb0cbd825fd5fe8d813c77368549",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "mods/BedBugs-1.12-1.0.1.jar",
       "hash": "2f7349104b91d7210c752c222123eb8f218dac61",
       "force": true,
@@ -564,12 +744,6 @@
     {
       "path": "mods/BetterFps-1.4.8.jar",
       "hash": "245235d5c67daff00ee658ee1f88ae8c3e4584b8",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/BlahajASM-5.22.jar",
-      "hash": "a436b87437df95f1c3718a4ad736f834ccb8cd16",
       "force": true,
       "type": "addon"
     },
@@ -586,8 +760,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/Controlling-3.0.12.2.jar",
-      "hash": "64e791db7eaf3577223a708df0325f07762bd059",
+      "path": "mods/Controlling-3.0.12.4.jar",
+      "hash": "d588b1fefb912c1080d397834b6300e59409183c",
       "force": true,
       "type": "addon"
     },
@@ -628,8 +802,20 @@
       "type": "addon"
     },
     {
+      "path": "mods/flare-0.2.1.jar",
+      "hash": "a73f17443ceedaeda2f483c091e6ca353f21bfd8",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/foamfix-0.10.15-1.12.2.jar",
       "hash": "b179ee981e06e396cb060045cb076c857985494a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/GoGSkybox 1.1-3.jar",
+      "hash": "e347da78f864315769e91d63ce5c3003bc3e73cb",
       "force": true,
       "type": "addon"
     },
@@ -670,6 +856,18 @@
       "type": "addon"
     },
     {
+      "path": "mods/itemzoom_1.12.2-1.11.jar",
+      "hash": "230cbdd018b71a44d96685e556839f33d8b44fd9",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/JAOPCA-1.12.2-2.3.12.29.jar",
+      "hash": "e39d94e29c9334990abb8ae5c5bb4fb4f26d090e",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/jeiintegration_1.12.2-1.6.0.jar",
       "hash": "54228a056a85fa146503cc7a20d3cf67fd55865f",
       "force": true,
@@ -678,12 +876,6 @@
     {
       "path": "mods/jeivillagers-1.12-1.0.2.jar",
       "hash": "82caaf16ae378d2e2eea9ecd58e9b8fe46ecb194",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/jei_1.12.2-4.16.1.1013.jar.disabled",
-      "hash": "91767806d0329ef91b9277142a359b078c57e92d",
       "force": true,
       "type": "addon"
     },
@@ -760,14 +952,14 @@
       "type": "addon"
     },
     {
-      "path": "mods/SmoothFont-mc1.12.2-2.1.4.jar",
-      "hash": "4c1c41c82f5868f8ae48b0303f619c65ba1218fe",
+      "path": "mods/ResourceLoader-MC1.12.1-1.5.3.jar",
+      "hash": "d8c10e6e29df5f9bc51e468642d9b3cae5f2f8e4",
       "force": true,
       "type": "addon"
     },
     {
-      "path": "mods/spark-forge1122.jar",
-      "hash": "6ea08fc3f82535f37a76f2e7340d239e64e40489",
+      "path": "mods/SmoothFont-mc1.12.2-2.1.4.jar",
+      "hash": "4c1c41c82f5868f8ae48b0303f619c65ba1218fe",
       "force": true,
       "type": "addon"
     },
@@ -802,8 +994,26 @@
       "type": "addon"
     },
     {
+      "path": "mods/UniDict-1.12.2-3.0.4.jar",
+      "hash": "b3a35585ea448ffa7e8ce3e4f120a03245fc2f88",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/UniversalTweaks-1.12.2-1.14.0.jar",
       "hash": "5aba6b295a6ed66a75c0d393c537ef2cdc4206c7",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/WanionLib-1.12.2-2.91.jar",
+      "hash": "68196be7d926aee4fe8b5c0d535909c5b2ce3f2c",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/WrapUp-1.12-1.1.3.jar",
+      "hash": "29f89705011794531150e5e00a73d62cc0134888",
       "force": true,
       "type": "addon"
     },
