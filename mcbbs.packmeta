@@ -2,7 +2,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "Oldium Optimized",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "DHJComical",
   "description": "",
   "fileApi": "",
@@ -179,7 +179,7 @@
     },
     {
       "path": "config/flare/flare.cfg",
-      "hash": "ac001641de2637a4343219823379ac88cdcefb5d",
+      "hash": "e2657b6002b9cf8de457c88a261ea16b7b526918",
       "force": true,
       "type": "addon"
     },
@@ -239,7 +239,7 @@
     },
     {
       "path": "config/InvTweaks/InvTweaks.cfg",
-      "hash": "7bda6e33ae6fbf61fa66d9c569a73b1b99647dcb",
+      "hash": "4e324b99089c41f5ff8b480fb32f0300c5e9fe9f",
       "force": true,
       "type": "addon"
     },
@@ -443,7 +443,7 @@
     },
     {
       "path": "config/jei/worldSettings.cfg",
-      "hash": "3135383c2f0e2113a845cab622cc60f155b149b8",
+      "hash": "f5895c17f309961fe31203845cee1893f1bf1b04",
       "force": true,
       "type": "addon"
     },
@@ -575,13 +575,37 @@
     },
     {
       "path": "config/relictium-options.json",
-      "hash": "fcb423da6b42c0fa6a19ca6794eab6368aec03e1",
+      "hash": "19fb1c6ac38de16fcc46adaa85738fcc8f27d024",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/renderlib.cfg",
+      "hash": "ef4eccdf38142288c7087e1aae65fb26e7c07cef",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/replaymod-rendersettings.json",
+      "hash": "20a0167033eb562974dfa9c571b8adce59956823",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/replaymod.cfg",
+      "hash": "03f608b443b71062d4e38872a68c25a2c39f8988",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/rlmixins.cfg",
       "hash": "601944e33c3c34ecff90bb1580d7ce94f9933dbb",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/screenshot_viewer-client.cfg",
+      "hash": "3545bff903e0b8bd4785e7fe43702f4411c37600",
       "force": true,
       "type": "addon"
     },
@@ -599,7 +623,7 @@
     },
     {
       "path": "config/splash.properties",
-      "hash": "6c212fd0638a718700a678466e2fbb459c767748",
+      "hash": "7e28b2fad0b82dafa70a9b6360e58e165a2bb575",
       "force": true,
       "type": "addon"
     },
@@ -617,7 +641,7 @@
     },
     {
       "path": "config/time.history",
-      "hash": "fe3d74a5f9c473413395ff8ef67b5c59a5695222",
+      "hash": "0da6682c714c6706d4d4a96872eeb1f4a4524588",
       "force": true,
       "type": "addon"
     },
@@ -700,14 +724,20 @@
       "type": "addon"
     },
     {
-      "path": "mods/!mixinbooter-10.4.jar",
-      "hash": "ee287cc1cee8c602eb6fefe0190ed3d0859ae99a",
+      "path": "mods/!mixinbooter-10.5.jar",
+      "hash": "b54a69ed72273227d94c419d3b040ace7e0e0c68",
       "force": true,
       "type": "addon"
     },
     {
       "path": "mods/!Red-Core-MC-1.8-1.12-0.6.jar",
       "hash": "ac72ee1e7777a3f20ace120c301fde68a3dfea23",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/1.12.2-unicodefix-1.3.2.jar",
+      "hash": "d3590f5beebdfb0dfe1ddfeece40758e937787d8",
       "force": true,
       "type": "addon"
     },
@@ -760,6 +790,18 @@
       "type": "addon"
     },
     {
+      "path": "mods/chatheadsYG-1.12.2-1.0.jar",
+      "hash": "a07ef13405cf36d61db9eb8538d05bb649499950",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/connectedglass-1.1.12-forge-mc1.12.jar",
+      "hash": "19597faf8993e0dd38b8a60cd3d1d62c34c34928",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/Controlling-3.0.12.4.jar",
       "hash": "d588b1fefb912c1080d397834b6300e59409183c",
       "force": true,
@@ -790,6 +832,12 @@
       "type": "addon"
     },
     {
+      "path": "mods/farsight-1.6.jar",
+      "hash": "87187014fda84b3b1e74cc79c3bf9f81e96d3546",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/FastFurnace-1.12.2-1.3.1.jar",
       "hash": "3091f2d5cb91c384b39729102e30abbda909b880",
       "force": true,
@@ -802,14 +850,20 @@
       "type": "addon"
     },
     {
-      "path": "mods/flare-0.2.1.jar",
-      "hash": "a73f17443ceedaeda2f483c091e6ca353f21bfd8",
+      "path": "mods/flare-0.3.0.jar",
+      "hash": "14a37a607e55c43e654cb9ff883daf1ec969aced",
       "force": true,
       "type": "addon"
     },
     {
       "path": "mods/foamfix-0.10.15-1.12.2.jar",
       "hash": "b179ee981e06e396cb060045cb076c857985494a",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/fusion-1.2.3-forge-mc1.12.jar",
+      "hash": "055251fb772392dd6c1e82bce44c802011997f1f",
       "force": true,
       "type": "addon"
     },
@@ -898,6 +952,12 @@
       "type": "addon"
     },
     {
+      "path": "mods/legacy_completion-0.1.1.jar",
+      "hash": "98c14e59cdd8c401fcd309e39c7a99933917192f",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/loadedmodsexporter-1.12.2-1.0.jar",
       "hash": "08b490a16f624e9ce9bdb22d9e2ddc2a18903c3c",
       "force": true,
@@ -928,6 +988,12 @@
       "type": "addon"
     },
     {
+      "path": "mods/NonConflictKeys-Forge-1.12.2-1.0.0.jar",
+      "hash": "7d0860663ac04b3e0c5c11e14a82ba5d40b4e6bf",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/particleculling-1.12.2-v1.4.3.jar",
       "hash": "2c4847ca6c7cf1d41ff320943394ff61028c7e72",
       "force": true,
@@ -952,8 +1018,20 @@
       "type": "addon"
     },
     {
+      "path": "mods/RenderLib-1.12.2-1.3.5.jar",
+      "hash": "0635a2cd62e1ab352941af5d886d2ebb0aa593fa",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/ResourceLoader-MC1.12.1-1.5.3.jar",
       "hash": "d8c10e6e29df5f9bc51e468642d9b3cae5f2f8e4",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/screenshot_viewer-1.1.1-forge-mc1.12.2.jar",
+      "hash": "9ff99989c64f2e12fb9770b1407bff100996015f",
       "force": true,
       "type": "addon"
     },
@@ -1014,6 +1092,18 @@
     {
       "path": "mods/WrapUp-1.12-1.1.3.jar",
       "hash": "29f89705011794531150e5e00a73d62cc0134888",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/zume-1.1.4.jar",
+      "hash": "e38c66e88e30625475fca7fbf89b11d7d5ba1030",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/_supermartijn642corelib-1.1.18-forge-mc1.12.jar",
+      "hash": "8da49c5146564659ed28729e4a1cad902296bff9",
       "force": true,
       "type": "addon"
     },

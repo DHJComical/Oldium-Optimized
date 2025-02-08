@@ -1,6 +1,6 @@
 {
   "quality": {
-    "cloud_quality": "DEFAULT",
+    "cloud_quality": "FANCY",
     "weather_quality": "DEFAULT",
     "leaves_quality": "DEFAULT",
     "biome_blend_radius": 2,
