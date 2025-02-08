@@ -1,48 +1,69 @@
-# A Modpack Based on 1.12.2 and Relictium
+# 基于1.12.2与Relictium的整合包
 
-## Why Create This Pack?
+## 开发动机
 
-### Designed for mobile FCL launcher to address poor efficiency of legacy OptiFine on mobile devices:
-- **Performance Issues**: 
-  - 70 FPS average in regular maps (2 render distance)  
-  - ~100 FPS in skyblock maps
+### 专为移动端FCL启动器设计，解决移动端旧版OptiFine效率低下的问题：
+- **性能痛点**：
+  - 常规地图平均70 FPS（2区块渲染距离）  
+  - 空岛地图约100 FPS
 
-### Core Components:
-- **Relictium**: Sodium port for 1.12.2 (10-15x FPS boost)  
-- **Visual Enhancements**:  
-  - Interface background blur (mimicking modern version UIs)  
-  - NeverEnoughAnimation (enhanced item animations)  
-  - Aqua Acrobatics (modern swimming mechanics)  
-- **QoL Improvements**:  
-  - Modern splash screen (desktop exclusive)  
-  - Smooth Font mod  
-  - Universal Tweaks compatibility layer
+---
 
-## Optimization Results (12 chunks | Max settings)
+## 核心架构
 
-| Hardware Configuration          | Peak FPS (Sky View) | Minimum FPS (Chunk Loading) |
-|----------------------------------|---------------------|-----------------------------|
-| E5-2666v3 + GTX 1660S @ 1080p   | 870                 | 400                         |
-| Dimensity 9200+ (Redmi K60 Ultra)| 500                 | 110                         |
+### 核心模组
 
-## Compatibility Guide
-### ✔️ Windows: Full support
-### 📱 Android: 
-- Required renderers:  
-  - **Holy Renderer** (recommended)  
-  - Krypton Wrapper Renderer (experimental, known issues)  
-- Critical notice: Disable *Smooth Font* mod
 
-## Shader Support Status
-❌ **Oculus 1.12.2 Port**:  
-- Development halted (last commit 6 months ago)  
-- 3 failed GitHub Actions builds  
-- Shaders currently unsupported
+-  Relictium - Sodium的1.12.2移植版
+-  BetterFPS - 更好的FPS
+-  Alfheim Lighting Engine - 光照改进
+-  Universal Tweaks - 通用修改
+### 视觉增强(如造成卡顿可关闭)
+-  NeverEnoughAnimation - 增强物品动画系统
+-  Aqua Acrobatics - 现代版游泳机制
+-  Blur - 界面背景模糊效果
+-  Modern Splash - 高版本加载界面 桌面端独占
+-  Smooth Font - 平滑字体
 
-## License & Contribution
-This pack is licensed under **MIT**. You may:  
-- Create derivative modpacks  
-- Redistribute with attribution  
-- Report issues via:  
-  - Comment section  
-  - [DHJComical@gmail.com](mailto:DHJComical@gmail.com)  
+---
+
+## 性能测试（12区块渲染 | 最高画质）
+
+| 硬件配置                   | 峰值FPS（天空视角） | 最低FPS（区块加载） |
+|---------------------------|--------------------|---------------------|
+| E5-2666v3 + GTX 1660S @ 1080p | 870               | 500                 |
+| 天玑9200+（红米K60至尊版）   | 500               | 110                 |
+| E5-2666v3 + GTX 1660S @ 1080p + Opt | 1300           | 500            |
+| 天玑9200+（红米K60至尊版）+ Opt   | 130               |60                     |
+
+
+## 兼容性指南
+
+### ✔️ Windows
+- 完整支持
+
+### 📱 Android
+- **必须渲染器**：
+  - Holy Renderer（推荐方案）
+  - ⚠️ 关键设置：禁用游戏设置中的紧凑定点格式模组
+  - Krypton Wrapper Renderer（实验性，存在已知问题）
+- ⚠️ 关键设置：禁用_Smooth Font_模组
+
+---
+
+## 光影支持现状
+**❌Oculus 1.12.2移植版**：
+- 开发停滞（最后一次提交于10个月前）
+- GitHub Actions构建连续3次失败
+- 当前版本不支持光影
+
+---
+
+## 许可协议与贡献
+本整合包采用 **MIT 协议**，您可以：
+-  创建衍生整合包
+-  二次分发（需保留署名）
+-  问题反馈渠道：
+  - 评论区留言
+  - [DHJComical@gmail.com](mailto:DHJComical@gmail.com)
+
