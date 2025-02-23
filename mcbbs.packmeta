@@ -1,8 +1,8 @@
 {
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
-  "name": "Oldium Optimized",
-  "version": "1.0.2",
+  "name": "Oldium Optimized 1.12.2",
+  "version": "1.0.3",
   "author": "DHJComical",
   "description": "",
   "fileApi": "",
@@ -214,6 +214,12 @@
       "type": "addon"
     },
     {
+      "path": "config/fw.cfg",
+      "hash": "aaf01e614df54acaf8f6a334c1c6a779d47a0dee",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "config/groovyscript.cfg",
       "hash": "f44e8b69d89e607c27e5906e9dd5454f35440f03",
       "force": true,
@@ -239,7 +245,7 @@
     },
     {
       "path": "config/InvTweaks/InvTweaks.cfg",
-      "hash": "4e324b99089c41f5ff8b480fb32f0300c5e9fe9f",
+      "hash": "b2aaa5d61ab6e60431c0ae88f34d9d508d9c7294",
       "force": true,
       "type": "addon"
     },
@@ -281,55 +287,55 @@
     },
     {
       "path": "config/jaopca/materials/brick.toml",
-      "hash": "a3aff0c835f9dc2c6422d3e4b7d7a72fd987c440",
+      "hash": "f702fb23b6edd1c12e9e1a5958ac7f73932526ea",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/brick_nether.toml",
-      "hash": "e1d79b010530f6b564cf8014cba228407e7455e1",
+      "hash": "ee4de097c8ce8c335a2ef0764b747018cf77d923",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/coal.toml",
-      "hash": "8dfe9a72bbdc95b51c2fc56567eab078505b7ed9",
+      "hash": "8c041e55a1adac1668a45ac813f85b2e71b6552a",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/diamond.toml",
-      "hash": "12fb579fb98dbe8a1181cc6cd3aa47c0723921a3",
+      "hash": "73f2ce9db14d74aaf6b729a9a54349e3d35f550d",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/emerald.toml",
-      "hash": "4c366e6cb345b8eb110f1a75412db0f0f8ae3858",
+      "hash": "b01574cd407a017475e972ab3e1a389ff7b75daa",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/glowstone.toml",
-      "hash": "7e18c64f756172fdce98cf90a3a214f0df0f5278",
+      "hash": "7ecbceb0ce4217a12e4fbe987690d5a63f9dca8e",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/gold.toml",
-      "hash": "741be25fa246ed82c82ebf8f2201ccd89492307b",
+      "hash": "b6ac97fd4a5fa4278d39b8f3e9c4e88c1b87e4ef",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/iron.toml",
-      "hash": "c12a42bb3e642ff18c808e6fd6b4757457856ce4",
+      "hash": "bf81e688620641f146f4c5410b842bbfebe4db6e",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/lapis.toml",
-      "hash": "7d049d147a6de7a41d2aba448743c16cdead6e43",
+      "hash": "6274ccea6565666659c650923de317d72c0b28f0",
       "force": true,
       "type": "addon"
     },
@@ -341,7 +347,7 @@
     },
     {
       "path": "config/jaopca/materials/quartz.toml",
-      "hash": "fb7ada7c15f9843967a202050aec53ef05bb86a6",
+      "hash": "7171e44ee7c0112a671607895355bd82e6cbfadd",
       "force": true,
       "type": "addon"
     },
@@ -431,7 +437,7 @@
     },
     {
       "path": "config/jei/jei.cfg",
-      "hash": "a37842efb6e085e9279235789cb5d29480047fdf",
+      "hash": "5199d0a1a589c43116bd97ba30f5637fef50320d",
       "force": true,
       "type": "addon"
     },
@@ -623,7 +629,7 @@
     },
     {
       "path": "config/splash.properties",
-      "hash": "7e28b2fad0b82dafa70a9b6360e58e165a2bb575",
+      "hash": "53df43122c29433089cfbc24a9df26caaedaa7c8",
       "force": true,
       "type": "addon"
     },
@@ -641,7 +647,7 @@
     },
     {
       "path": "config/time.history",
-      "hash": "0da6682c714c6706d4d4a96872eeb1f4a4524588",
+      "hash": "f85c81cf076dcc835f23cec6ea6c62526c441bbc",
       "force": true,
       "type": "addon"
     },
@@ -749,7 +755,7 @@
     },
     {
       "path": "mods/Alfheim-1.5-Dev-4.jar",
-      "hash": "f8e043eea7c125df7cec6113f4ea0fd5e6322a4d",
+      "hash": "459fde2a8041aec0b827747115b39d8a85a4c289",
       "force": true,
       "type": "addon"
     },
@@ -784,8 +790,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/censoredasm5.23.jar",
-      "hash": "b510c7b6a02287accae1ba207ca3d145ffe57737",
+      "path": "mods/censoredasm5.25.jar",
+      "hash": "85fd4a1ac18bca65337f5693e99105248420dec7",
       "force": true,
       "type": "addon"
     },
@@ -850,8 +856,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/flare-0.3.0.jar",
-      "hash": "14a37a607e55c43e654cb9ff883daf1ec969aced",
+      "path": "mods/flare-0.4.0.jar",
+      "hash": "86561afada63714d0f111bc55485617598e9e5a1",
       "force": true,
       "type": "addon"
     },
@@ -862,8 +868,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/fusion-1.2.3-forge-mc1.12.jar",
-      "hash": "055251fb772392dd6c1e82bce44c802011997f1f",
+      "path": "mods/fusion-1.2.4-forge-mc1.12.jar",
+      "hash": "1fa8a5e795b3f8ef326bcaa7a6d97ec6707198ca",
       "force": true,
       "type": "addon"
     },
@@ -874,8 +880,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/HadEnoughItems_1.12.2-4.26.2.jar",
-      "hash": "4e3f8aab2511779983615909692549d38fb118e7",
+      "path": "mods/HadEnoughItems_1.12.2-4.27.3.jar",
+      "hash": "472fe04559447ecb4e0403fffc095a49c8f0747a",
       "force": true,
       "type": "addon"
     },
@@ -916,8 +922,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/JAOPCA-1.12.2-2.3.12.29.jar",
-      "hash": "e39d94e29c9334990abb8ae5c5bb4fb4f26d090e",
+      "path": "mods/JAOPCA-1.12.2-2.3.12.30.jar",
+      "hash": "8ddd3d8495094f22688e8de3027653b47258727f",
       "force": true,
       "type": "addon"
     },
@@ -1018,8 +1024,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/RenderLib-1.12.2-1.3.5.jar",
-      "hash": "0635a2cd62e1ab352941af5d886d2ebb0aa593fa",
+      "path": "mods/RenderLib-1.12.2-1.4.1.jar",
+      "hash": "c9c73aa0182f8b61cb22d43e638c9e96e535c485",
       "force": true,
       "type": "addon"
     },
@@ -1098,6 +1104,12 @@
     {
       "path": "mods/zume-1.1.4.jar",
       "hash": "e38c66e88e30625475fca7fbf89b11d7d5ba1030",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[异引定址] Redirectionor-1.7 for NilLoader.jar",
+      "hash": "bfdc9de089109dddee0e533227f4f63a42357f61",
       "force": true,
       "type": "addon"
     },
