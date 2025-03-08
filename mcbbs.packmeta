@@ -2,7 +2,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "Oldium Optimized 1.12.2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "DHJComical",
   "description": "",
   "fileApi": "",
@@ -245,7 +245,7 @@
     },
     {
       "path": "config/InvTweaks/InvTweaks.cfg",
-      "hash": "b2aaa5d61ab6e60431c0ae88f34d9d508d9c7294",
+      "hash": "eeede9355a3540617bb443f540e7ce76b4a9816d",
       "force": true,
       "type": "addon"
     },
@@ -623,13 +623,13 @@
     },
     {
       "path": "config/smoothfont/smoothfont.cfg",
-      "hash": "bf3d1d3cf20b342f92101b31001466c3e014e041",
+      "hash": "94cb6fbcc71a30fa916a7ce06d754f1bcac3e5ab",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/splash.properties",
-      "hash": "53df43122c29433089cfbc24a9df26caaedaa7c8",
+      "hash": "cdef21391d930c70628db7bb0b27a74770922874",
       "force": true,
       "type": "addon"
     },
@@ -647,7 +647,7 @@
     },
     {
       "path": "config/time.history",
-      "hash": "f85c81cf076dcc835f23cec6ea6c62526c441bbc",
+      "hash": "768bd02aeca5ef51485baa770b348e9abbc12f54",
       "force": true,
       "type": "addon"
     },
@@ -719,7 +719,7 @@
     },
     {
       "path": "config/vintagefix.properties",
-      "hash": "1b38fedc46e2c5ed26f2037049cace8491e3534a",
+      "hash": "6ccbe5d323f0da9ee94cb04e23459544294398ea",
       "force": true,
       "type": "addon"
     },
@@ -736,8 +736,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/!Red-Core-MC-1.8-1.12-0.6.jar",
-      "hash": "ac72ee1e7777a3f20ace120c301fde68a3dfea23",
+      "path": "mods/!Red-Core-MC-1.8-1.12-0.7-Dev-1.jar",
+      "hash": "acd8a82862086b81e441a914af207881cb62955f",
       "force": true,
       "type": "addon"
     },
@@ -802,12 +802,6 @@
       "type": "addon"
     },
     {
-      "path": "mods/connectedglass-1.1.12-forge-mc1.12.jar",
-      "hash": "19597faf8993e0dd38b8a60cd3d1d62c34c34928",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "mods/Controlling-3.0.12.4.jar",
       "hash": "d588b1fefb912c1080d397834b6300e59409183c",
       "force": true,
@@ -850,26 +844,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/fermiumasm-5.24.jar",
-      "hash": "932d945e1b18a9720f72ec822862838e15d3df81",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "mods/flare-0.4.0.jar",
       "hash": "86561afada63714d0f111bc55485617598e9e5a1",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/foamfix-0.10.15-1.12.2.jar",
-      "hash": "b179ee981e06e396cb060045cb076c857985494a",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/fusion-1.2.4-forge-mc1.12.jar",
-      "hash": "1fa8a5e795b3f8ef326bcaa7a6d97ec6707198ca",
       "force": true,
       "type": "addon"
     },
@@ -1090,6 +1066,12 @@
       "type": "addon"
     },
     {
+      "path": "mods/vintagefix-0.5.4.jar",
+      "hash": "87c66bc2b3ee25768ace0c114314bb71f1e5bf55",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/WanionLib-1.12.2-2.91.jar",
       "hash": "68196be7d926aee4fe8b5c0d535909c5b2ce3f2c",
       "force": true,
@@ -1116,12 +1098,6 @@
     {
       "path": "mods/_supermartijn642corelib-1.1.18-forge-mc1.12.jar",
       "hash": "8da49c5146564659ed28729e4a1cad902296bff9",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/`FermiumBooter-1.1.1.jar",
-      "hash": "c62eb3446c827f02c9f3130fbb37991cea616fb9",
       "force": true,
       "type": "addon"
     }
