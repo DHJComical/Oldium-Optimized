@@ -1,0 +1,14 @@
+.minecraft
+minecraft/CustomSkinLoader
+minecraft/coremods
+minecraft/icon.png
+minecraft/options.txt
+minecraft/resourcepacks
+minecraft/resources
+minecraft/saves
+minecraft/screenshots
+minecraft/server-resource-packs
+minecraft/shaderpacks
+minecraft/texturepacks
+minecraft/usercache.json
+minecraft/usernamecache.json
