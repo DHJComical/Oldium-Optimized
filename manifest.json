@@ -1,15 +1,15 @@
 {
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Oldium Optimized 1.12.2",
-  "version": "1.0.4",
+  "name": "Oldium Optimized 1.7.10",
+  "version": "1.0.0",
   "author": "DHJComical",
   "overrides": "overrides",
   "minecraft": {
-    "version": "1.12.2",
+    "version": "1.7.10",
     "modLoaders": [
       {
-        "id": "forge-14.23.5.2860",
+        "id": "forge-10.13.4.1614",
         "primary": true
       }
     ]
