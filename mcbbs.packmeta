@@ -2,7 +2,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "Oldium Optimized 1.12.2",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "DHJComical",
   "description": "",
   "fileApi": "",
@@ -245,7 +245,7 @@
     },
     {
       "path": "config/InvTweaks/InvTweaks.cfg",
-      "hash": "eeede9355a3540617bb443f540e7ce76b4a9816d",
+      "hash": "feea048f6269ca1c3412a2a3433e31092e373038",
       "force": true,
       "type": "addon"
     },
@@ -539,7 +539,7 @@
     },
     {
       "path": "config/neverenoughanimations.cfg",
-      "hash": "f4e7293ed292ea21e9d8f53abc2910b3837ae78d",
+      "hash": "0b8342bf543131d4b090e86ea3376e477df04fca",
       "force": true,
       "type": "addon"
     },
@@ -622,14 +622,20 @@
       "type": "addon"
     },
     {
+      "path": "config/smoothfont/player-892c4be949a4a333f43b86e849ce3819.cfg",
+      "hash": "8eb7033bf4cc73cec427a1aac2f13e1c80327434",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "config/smoothfont/smoothfont.cfg",
-      "hash": "94cb6fbcc71a30fa916a7ce06d754f1bcac3e5ab",
+      "hash": "7f9d7a5f82360c5c848055cdafd38a806336af68",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/splash.properties",
-      "hash": "cdef21391d930c70628db7bb0b27a74770922874",
+      "hash": "93c4a7b36ef18ef46c0d15852c000764ed7000ad",
       "force": true,
       "type": "addon"
     },
@@ -647,7 +653,7 @@
     },
     {
       "path": "config/time.history",
-      "hash": "768bd02aeca5ef51485baa770b348e9abbc12f54",
+      "hash": "e0044839faa79e7fccc733ee8cee574c8902bbb4",
       "force": true,
       "type": "addon"
     },
@@ -706,6 +712,12 @@
       "type": "addon"
     },
     {
+      "path": "config/Valkyrie.cfg",
+      "hash": "cf7fa77f8c1a14af35189e1d95430cb8a5475ff3",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "config/vanillafix/methods-stable_39.csv",
       "hash": "d656cbf54888a04be3a869a2c4f459b1045b823d",
       "force": true,
@@ -754,8 +766,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/Alfheim-1.5-Dev-4.jar",
-      "hash": "459fde2a8041aec0b827747115b39d8a85a4c289",
+      "path": "mods/Alfheim-2.5-Dev-4.jar",
+      "hash": "c51ac712d881eccb255aa9a7e41372e7fa4b7647",
       "force": true,
       "type": "addon"
     },
@@ -790,8 +802,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/censoredasm5.25.jar",
-      "hash": "85fd4a1ac18bca65337f5693e99105248420dec7",
+      "path": "mods/censoredasm5.26.jar",
+      "hash": "33a2d7aa690d3d9733efdc86b221535c0f9aa132",
       "force": true,
       "type": "addon"
     },
@@ -862,12 +874,6 @@
       "type": "addon"
     },
     {
-      "path": "mods/hecharacters-1.12.2-1.4.1.jar.bak",
-      "hash": "4818356066c108042abefd4e37bf781ff8c90414",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "mods/I18nUpdateMod-3.6.0-all.jar",
       "hash": "a738aaeb711278b763599bf8d09ff2ed87d763ae",
       "force": true,
@@ -898,8 +904,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/JAOPCA-1.12.2-2.3.12.30.jar",
-      "hash": "8ddd3d8495094f22688e8de3027653b47258727f",
+      "path": "mods/JAOPCA-1.12.2-2.3.12.31.jar",
+      "hash": "cc0e2a241d15adfc95a1efd15ac219b4cd0e2d2b",
       "force": true,
       "type": "addon"
     },
@@ -964,8 +970,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/neverenoughanimations-1.0.4.jar",
-      "hash": "de4fd594452119e4494f0745370faab726a2fac2",
+      "path": "mods/neverenoughanimations-1.0.5.jar",
+      "hash": "ef70e3d31360023b26cfe40257881f034cd31dc5",
       "force": true,
       "type": "addon"
     },
@@ -988,6 +994,12 @@
       "type": "addon"
     },
     {
+      "path": "mods/Redirectionor-1.7 for NilLoader.jar",
+      "hash": "bfdc9de089109dddee0e533227f4f63a42357f61",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/RedstoneFlux-1.12-2.1.1.1-universal.jar",
       "hash": "7835c1dcc006e5d4a406a6b0615012b825e25044",
       "force": true,
@@ -1000,8 +1012,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/RenderLib-1.12.2-1.4.1.jar",
-      "hash": "c9c73aa0182f8b61cb22d43e638c9e96e535c485",
+      "path": "mods/RenderLib-1.12.2-1.4.3.jar",
+      "hash": "2ed55f924d5612ccd0806a6f193c2f8a11435832",
       "force": true,
       "type": "addon"
     },
@@ -1066,8 +1078,14 @@
       "type": "addon"
     },
     {
-      "path": "mods/vintagefix-0.5.4.jar",
-      "hash": "87c66bc2b3ee25768ace0c114314bb71f1e5bf55",
+      "path": "mods/Valkyrie-0.3-Dev-1.jar",
+      "hash": "0342a9eb2cdf5bf054ba6577d74cf6fa440037ed",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/vintagefix-0.5.5.jar",
+      "hash": "41502020bc47004cd4370dcd3aa8bf3ead875857",
       "force": true,
       "type": "addon"
     },
@@ -1086,12 +1104,6 @@
     {
       "path": "mods/zume-1.1.4.jar",
       "hash": "e38c66e88e30625475fca7fbf89b11d7d5ba1030",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/[异引定址] Redirectionor-1.7 for NilLoader.jar",
-      "hash": "bfdc9de089109dddee0e533227f4f63a42357f61",
       "force": true,
       "type": "addon"
     },
