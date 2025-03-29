@@ -2,7 +2,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "Oldium Optimized 1.7.10",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "DHJComical",
   "description": "",
   "fileApi": "",
@@ -251,7 +251,7 @@
     },
     {
       "path": "config/NEI/client.cfg",
-      "hash": "0ffc6e837b2eda134699090f5d9f12e499097f95",
+      "hash": "b4604f3e08d65a8e78a47629899984091e52b446",
       "force": true,
       "type": "addon"
     },
@@ -317,7 +317,7 @@
     },
     {
       "path": "config/shaders.properties",
-      "hash": "3bf30aead869f4cdc9d330734dc53f3c387cb79a",
+      "hash": "1e598038098915e3233fd0045ea7e5c3359af5da",
       "force": true,
       "type": "addon"
     },
@@ -347,13 +347,13 @@
     },
     {
       "path": "config/splash.properties",
-      "hash": "74c24024eae1cbaf1b3da1ea01e2bd098ca119c0",
+      "hash": "b07971dd4fab26a01f5d0997406ebb6d16e450fd",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/time.history",
-      "hash": "0d9b80d74069729d25abec39b19e6233a24d8cf8",
+      "hash": "5dfbb1bc873a28b27e4c60201c5336e4b6c5815f",
       "force": true,
       "type": "addon"
     },
@@ -406,8 +406,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/archaicfix-0.7.4.jar",
-      "hash": "83d877e249981415a3fb580e0cdc8ba19be33bcc",
+      "path": "mods/archaicfix-0.7.5.jar",
+      "hash": "d7ac0eb961d7cf3358b1d3a1a9661e21a0a0f6ed",
       "force": true,
       "type": "addon"
     },
@@ -472,8 +472,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/gtnhlib-0.6.16.jar",
-      "hash": "eba9cdd5317672bdff71b75364a93150aa422e40",
+      "path": "mods/gtnhlib-0.6.17.jar",
+      "hash": "e6b5b65e5b5c8e06b8083f654280297845d58e54",
       "force": true,
       "type": "addon"
     },
@@ -508,8 +508,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/NotEnoughItems-2.7.32-pre-GTNH.jar",
-      "hash": "36169da9287bcf4d0d3ce1b5f029f1e0f1a4fde3",
+      "path": "mods/NotEnoughItems-2.7.36-pre-GTNH.jar",
+      "hash": "503e6f9dcf7e291f9e99d7ad71b04624fa5c625c",
       "force": true,
       "type": "addon"
     },
