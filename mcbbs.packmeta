@@ -2,7 +2,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "Oldium Optimized 1.12.2",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "DHJComical",
   "description": "",
   "fileApi": "",
@@ -245,7 +245,7 @@
     },
     {
       "path": "config/InvTweaks/InvTweaks.cfg",
-      "hash": "feea048f6269ca1c3412a2a3433e31092e373038",
+      "hash": "41ea5d4a6d19a4712c2536bc8e22a870ceb7219d",
       "force": true,
       "type": "addon"
     },
@@ -515,7 +515,7 @@
     },
     {
       "path": "config/loliasm.cfg",
-      "hash": "3c6ee2908a4e0f9aa0fecb0ff742020ff0d261a6",
+      "hash": "44c22cb2379726d0ff2c7b4ad957c991303442e3",
       "force": true,
       "type": "addon"
     },
@@ -635,7 +635,7 @@
     },
     {
       "path": "config/splash.properties",
-      "hash": "93c4a7b36ef18ef46c0d15852c000764ed7000ad",
+      "hash": "cfe407568fb8254bcd89b413699fb3fb8f3f62cb",
       "force": true,
       "type": "addon"
     },
@@ -653,7 +653,7 @@
     },
     {
       "path": "config/time.history",
-      "hash": "e0044839faa79e7fccc733ee8cee574c8902bbb4",
+      "hash": "87fa73ad7c046a1ea92c9d7d479c0605036ccaa2",
       "force": true,
       "type": "addon"
     },
@@ -742,8 +742,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/!mixinbooter-10.5.jar",
-      "hash": "b54a69ed72273227d94c419d3b040ace7e0e0c68",
+      "path": "mods/!mixinbooter-10.6.jar",
+      "hash": "1e66c1799f30239386e5f2ed8b25ab2d9063cdb3",
       "force": true,
       "type": "addon"
     },
@@ -802,8 +802,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/censoredasm5.26.jar",
-      "hash": "33a2d7aa690d3d9733efdc86b221535c0f9aa132",
+      "path": "mods/censoredasm5.28.jar",
+      "hash": "8cd0805a74698313594506e8b2830de086c055c1",
       "force": true,
       "type": "addon"
     },
@@ -832,8 +832,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/CustomSkinLoader_ForgeV1-14.22.jar",
-      "hash": "332f9a342ad8730ab3dbe5e2ce8a06d10fa0f7d5",
+      "path": "mods/CustomSkinLoader_ForgeV1-14.23.jar",
+      "hash": "de0b93f11ec25bae5f444b251c6ceef085f9cfb2",
       "force": true,
       "type": "addon"
     },
@@ -856,8 +856,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/flare-0.4.0.jar",
-      "hash": "86561afada63714d0f111bc55485617598e9e5a1",
+      "path": "mods/flare-0.5.0.jar",
+      "hash": "a84011267bd3ff23a14515143faefd0682ab8d71",
       "force": true,
       "type": "addon"
     },
@@ -874,8 +874,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/I18nUpdateMod-3.6.0-all.jar",
-      "hash": "a738aaeb711278b763599bf8d09ff2ed87d763ae",
+      "path": "mods/I18nUpdateMod-3.6.2-all.jar",
+      "hash": "60c831f5f137e5591dd56d81f21f500339f69d2a",
       "force": true,
       "type": "addon"
     },
