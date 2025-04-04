@@ -2,7 +2,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "Oldium Optimized 1.12.2",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "DHJComical",
   "description": "",
   "fileApi": "",
@@ -245,7 +245,7 @@
     },
     {
       "path": "config/InvTweaks/InvTweaks.cfg",
-      "hash": "41ea5d4a6d19a4712c2536bc8e22a870ceb7219d",
+      "hash": "f38ee69d5357a0e996e2f3652271b841ca474dde",
       "force": true,
       "type": "addon"
     },
@@ -635,7 +635,7 @@
     },
     {
       "path": "config/splash.properties",
-      "hash": "cfe407568fb8254bcd89b413699fb3fb8f3f62cb",
+      "hash": "6e2e15976f8145f2360b1d9f0fa940dae527c5bf",
       "force": true,
       "type": "addon"
     },
@@ -653,7 +653,7 @@
     },
     {
       "path": "config/time.history",
-      "hash": "87fa73ad7c046a1ea92c9d7d479c0605036ccaa2",
+      "hash": "4ddd15c907c4d337f4b524f70c9e37d1586790e8",
       "force": true,
       "type": "addon"
     },
@@ -1078,8 +1078,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/Valkyrie-0.3-Dev-1.jar",
-      "hash": "0342a9eb2cdf5bf054ba6577d74cf6fa440037ed",
+      "path": "mods/Valkyrie-0.3-Dev-2.jar",
+      "hash": "a9f5e58e40a715856d877253ce4870afe0ccec95",
       "force": true,
       "type": "addon"
     },
