@@ -2,7 +2,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "Oldium Optimized 1.7.10",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "DHJComical",
   "description": "",
   "fileApi": "",
@@ -382,8 +382,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/1.7.10-ASJCore-1.4.2.2.jar",
-      "hash": "7be68dc479272dc881f7139af9cbb6d995fe33eb",
+      "path": "mods/1.7.10-ASJCore-1.4.3.0.jar",
+      "hash": "11c619aea11ba5001ad39ca83c5fc42fab253dfa",
       "force": true,
       "type": "addon"
     },
@@ -430,8 +430,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/CodeChickenCore-1.4.1.jar",
-      "hash": "1d247172e0abe2879bbf9a30acb187dfc0292852",
+      "path": "mods/CodeChickenCore-1.3.11.jar",
+      "hash": "279097b856eb797d6b1632652ea923390a5b2b29",
       "force": true,
       "type": "addon"
     },
@@ -472,8 +472,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/gtnhlib-0.6.17.jar",
-      "hash": "e6b5b65e5b5c8e06b8083f654280297845d58e54",
+      "path": "mods/gtnhlib-0.6.18.jar",
+      "hash": "695f987de2ddc50cf74d23fee1ec03892e6aa3de",
       "force": true,
       "type": "addon"
     },
@@ -508,8 +508,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/NotEnoughItems-2.7.36-pre-GTNH.jar",
-      "hash": "503e6f9dcf7e291f9e99d7ad71b04624fa5c625c",
+      "path": "mods/NotEnoughItems-2.7.37-pre-GTNH.jar",
+      "hash": "60ba6290b5cdbb283f1ed3bbffcd82d62719e83d",
       "force": true,
       "type": "addon"
     },
