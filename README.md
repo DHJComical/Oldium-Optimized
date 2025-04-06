@@ -44,10 +44,12 @@
 
 ### 📱 Android
 - **必须渲染器**：
+- ⚠️ 关键设置：禁用_Smooth Font_模组
   - Holy Renderer（推荐方案）
   - ⚠️ 关键设置：禁用游戏视频设置中的紧凑定点格式
   - Krypton Wrapper Renderer（实验性，存在已知问题）
-- ⚠️ 关键设置：禁用_Smooth Font_模组
+  - 将来的MG渲染器
+
 
 ---
 
