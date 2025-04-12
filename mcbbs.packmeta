@@ -2,7 +2,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "Oldium Optimized 1.12.2",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "DHJComical",
   "description": "",
   "fileApi": "",
@@ -220,6 +220,12 @@
       "type": "addon"
     },
     {
+      "path": "config/Gnetum.cfg",
+      "hash": "14cd4e12214b2a54bf4e898a7e22c4acceb4f3d8",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "config/groovyscript.cfg",
       "hash": "f44e8b69d89e607c27e5906e9dd5454f35440f03",
       "force": true,
@@ -245,7 +251,7 @@
     },
     {
       "path": "config/InvTweaks/InvTweaks.cfg",
-      "hash": "f38ee69d5357a0e996e2f3652271b841ca474dde",
+      "hash": "d2a31b812cf89ebdbfd95cc573ecf4486c7bf5a5",
       "force": true,
       "type": "addon"
     },
@@ -281,151 +287,151 @@
     },
     {
       "path": "config/jaopca/main.toml",
-      "hash": "cc10168d322e3183f7093fb50b193f2e3d2973c3",
+      "hash": "bfbac7cc94da63dc968ebd87dec011c2531fcdad",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/brick.toml",
-      "hash": "f702fb23b6edd1c12e9e1a5958ac7f73932526ea",
+      "hash": "0dfc194e245d829b09a13658045477037e0c3707",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/brick_nether.toml",
-      "hash": "ee4de097c8ce8c335a2ef0764b747018cf77d923",
+      "hash": "f47b58af1594a4eedcbff97c69286cdca587f2aa",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/coal.toml",
-      "hash": "8c041e55a1adac1668a45ac813f85b2e71b6552a",
+      "hash": "5427a3443b0f1b3b608da00eb2387db3656ed568",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/diamond.toml",
-      "hash": "73f2ce9db14d74aaf6b729a9a54349e3d35f550d",
+      "hash": "5f005ff138fe7e6f937032b284a555f447ab6daf",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/emerald.toml",
-      "hash": "b01574cd407a017475e972ab3e1a389ff7b75daa",
+      "hash": "4470f77630b85df351d14aef320a0fc935be96e6",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/glowstone.toml",
-      "hash": "7ecbceb0ce4217a12e4fbe987690d5a63f9dca8e",
+      "hash": "2ab83841ac92ea021f9854e79b78e37a92cfdcea",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/gold.toml",
-      "hash": "b6ac97fd4a5fa4278d39b8f3e9c4e88c1b87e4ef",
+      "hash": "84c80a5388f12a83954a21afc2caeeb810e71288",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/iron.toml",
-      "hash": "bf81e688620641f146f4c5410b842bbfebe4db6e",
+      "hash": "f0169546b5d3819fc8c532a60fe2257559d5f88a",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/lapis.toml",
-      "hash": "6274ccea6565666659c650923de317d72c0b28f0",
+      "hash": "2605ffe21b07fa319870f708b4e080c971159db2",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/prismarine.toml",
-      "hash": "3dea316f94e8865b22a7d40f26c0dcba852284eb",
+      "hash": "aa8f98b4f3140f28baa7a67900021ad4e1a6a5e4",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/quartz.toml",
-      "hash": "7171e44ee7c0112a671607895355bd82e6cbfadd",
+      "hash": "a8227d18bd017db03c594dccfd575edbe20d2cfa",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/materials/redstone.toml",
-      "hash": "57aff61cb94ece222c4db47baa7e763d4064711a",
+      "hash": "9803b585dc7c83d852084fb915807f05330c2aeb",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/modules/block.toml",
-      "hash": "3d0f28d67f03c1004224f78c64f1ba46f2cd293a",
+      "hash": "2ccc7de2edfa0f77ce3391cf6963d267d8ef46e5",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/modules/coin.toml",
-      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "hash": "4e3e3d8a1d4625038d951a848ad366c64c723485",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/modules/custom.toml",
-      "hash": "3d0f28d67f03c1004224f78c64f1ba46f2cd293a",
+      "hash": "2ccc7de2edfa0f77ce3391cf6963d267d8ef46e5",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/modules/dense_plate.toml",
-      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "hash": "4e3e3d8a1d4625038d951a848ad366c64c723485",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/modules/dust.toml",
-      "hash": "3d0f28d67f03c1004224f78c64f1ba46f2cd293a",
+      "hash": "2ccc7de2edfa0f77ce3391cf6963d267d8ef46e5",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/modules/gear.toml",
-      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "hash": "4e3e3d8a1d4625038d951a848ad366c64c723485",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/modules/molten.toml",
-      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "hash": "4e3e3d8a1d4625038d951a848ad366c64c723485",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/modules/nugget.toml",
-      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "hash": "4e3e3d8a1d4625038d951a848ad366c64c723485",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/modules/plate.toml",
-      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "hash": "4e3e3d8a1d4625038d951a848ad366c64c723485",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/modules/small_dust.toml",
-      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "hash": "4e3e3d8a1d4625038d951a848ad366c64c723485",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/modules/stick.toml",
-      "hash": "15efac27d774beea50d7dc9abd8c4220f1728f28",
+      "hash": "4c7280ccd7dde3b479e673a62e129ec4f434bbc4",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/jaopca/modules/tiny_dust.toml",
-      "hash": "05dc9281668e7167fac45f35c6809848c83f549e",
+      "hash": "4e3e3d8a1d4625038d951a848ad366c64c723485",
       "force": true,
       "type": "addon"
     },
@@ -538,6 +544,12 @@
       "type": "addon"
     },
     {
+      "path": "config/neonium-options.json",
+      "hash": "5d4fe1882cfdd8b8ae2b6380e32ba0b89532cc74",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "config/neverenoughanimations.cfg",
       "hash": "0b8342bf543131d4b090e86ea3376e477df04fca",
       "force": true,
@@ -635,7 +647,7 @@
     },
     {
       "path": "config/splash.properties",
-      "hash": "6e2e15976f8145f2360b1d9f0fa940dae527c5bf",
+      "hash": "58e2c59027f420de35b0691c82d4efec079ebb8e",
       "force": true,
       "type": "addon"
     },
@@ -653,7 +665,7 @@
     },
     {
       "path": "config/time.history",
-      "hash": "4ddd15c907c4d337f4b524f70c9e37d1586790e8",
+      "hash": "5727230c70e1d8594dac7d1d46144e92de9dffdb",
       "force": true,
       "type": "addon"
     },
@@ -689,7 +701,7 @@
     },
     {
       "path": "config/Universal Tweaks - Bugfixes.cfg",
-      "hash": "c6ba2ad42bd5f1d1bf12a8b10cf0ad4d64b031f0",
+      "hash": "f20db748f2ee2e97ddb4561319140c4da37a2d67",
       "force": true,
       "type": "addon"
     },
@@ -701,13 +713,13 @@
     },
     {
       "path": "config/Universal Tweaks - Mod Integration.cfg",
-      "hash": "a026e656e6c47e2d45568116b37abc87d955c51b",
+      "hash": "0cf92e3e26410508501e1d5dafd500aef417f2a4",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/Universal Tweaks - Tweaks.cfg",
-      "hash": "29ad51299bd6f3c04000d10ec134e3e9903a46b6",
+      "hash": "3b61b0a520d2c5bc036d6e39544fca42a217737f",
       "force": true,
       "type": "addon"
     },
@@ -750,6 +762,12 @@
     {
       "path": "mods/!Red-Core-MC-1.8-1.12-0.7-Dev-1.jar",
       "hash": "acd8a82862086b81e441a914af207881cb62955f",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/+Fugue-0.18.4.jar",
+      "hash": "a868870e15b4647c5da21e2e0d954d60ff9e9d5f",
       "force": true,
       "type": "addon"
     },
@@ -862,6 +880,12 @@
       "type": "addon"
     },
     {
+      "path": "mods/gnetum-1.1.2.jar",
+      "hash": "bb402cdb17c109efa96a5046ef2602f12399804b",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/GoGSkybox 1.1-3.jar",
       "hash": "e347da78f864315769e91d63ce5c3003bc3e73cb",
       "force": true,
@@ -904,8 +928,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/JAOPCA-1.12.2-2.3.12.31.jar",
-      "hash": "cc0e2a241d15adfc95a1efd15ac219b4cd0e2d2b",
+      "path": "mods/JAOPCA-1.12.2-2.3.12.33.jar",
+      "hash": "2ba06ee3db39e34a65872465ac8a8a1be4b70784",
       "force": true,
       "type": "addon"
     },
@@ -940,18 +964,6 @@
       "type": "addon"
     },
     {
-      "path": "mods/legacy_completion-0.1.1.jar",
-      "hash": "98c14e59cdd8c401fcd309e39c7a99933917192f",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/loadedmodsexporter-1.12.2-1.0.jar",
-      "hash": "08b490a16f624e9ce9bdb22d9e2ddc2a18903c3c",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "mods/LunatriusCore-1.12.2-1.2.0.42-universal.jar",
       "hash": "f70b39168f2a02d47792cf29bef432e20d0bcd57",
       "force": true,
@@ -966,6 +978,12 @@
     {
       "path": "mods/mousetweaks-1.12.2-3.1.5.jar",
       "hash": "793920175608d000688a88fce14f4c04efdedc58",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/neonium-1.0.2.jar",
+      "hash": "434bccfd3c96ac56fbfe837ccbd3f747671eafc7",
       "force": true,
       "type": "addon"
     },
@@ -1002,12 +1020,6 @@
     {
       "path": "mods/RedstoneFlux-1.12-2.1.1.1-universal.jar",
       "hash": "7835c1dcc006e5d4a406a6b0615012b825e25044",
-      "force": true,
-      "type": "addon"
-    },
-    {
-      "path": "mods/relictium-1.2.0.jar",
-      "hash": "d8846857f6ff33052d9c754c01c61c9d49561a3d",
       "force": true,
       "type": "addon"
     },
@@ -1072,8 +1084,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/UniversalTweaks-1.12.2-1.14.0.jar",
-      "hash": "5aba6b295a6ed66a75c0d393c537ef2cdc4206c7",
+      "path": "mods/UniversalTweaks-1.12.2-1.15.0.jar",
+      "hash": "b3101805c7662a43f29ea8c5b17d692ed7822514",
       "force": true,
       "type": "addon"
     },
@@ -1084,8 +1096,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/vintagefix-0.5.5.jar",
-      "hash": "41502020bc47004cd4370dcd3aa8bf3ead875857",
+      "path": "mods/vintagefix-0.5.6.jar",
+      "hash": "66c2cee328218eec7c5fefb99101293065ad534c",
       "force": true,
       "type": "addon"
     },
