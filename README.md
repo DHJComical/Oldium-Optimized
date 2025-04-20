@@ -1,4 +1,4 @@
-# 基于1.12.2与Relictium的整合包
+# 基于1.12.2与Neonium的整合包
 
 ## 开发动机
 
@@ -14,7 +14,7 @@
 ### 核心模组
 
 
--  Relictium - Sodium的1.12.2移植版
+-  Neonium - Sodium的1.12.2移植版
 -  BetterFPS - 更好的FPS
 -  Alfheim Lighting Engine - 光照改进
 -  Universal Tweaks - 通用修改
@@ -44,7 +44,7 @@
 
 ### 📱 Android
 - **必须渲染器**：
-- ⚠️ 关键设置：禁用_Smooth Font_模组
+- ⚠️ 禁用Smooth Font,Gnetum模组
   - Holy Renderer（推荐方案）
   - ⚠️ 关键设置：禁用游戏视频设置中的紧凑定点格式
   - Krypton Wrapper Renderer（实验性，存在已知问题）
