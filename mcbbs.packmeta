@@ -2,7 +2,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "Oldium Optimized 1.7.10",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "DHJComical",
   "description": "",
   "fileApi": "",
@@ -382,8 +382,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/1.7.10-ASJCore-1.4.3.0.jar",
-      "hash": "11c619aea11ba5001ad39ca83c5fc42fab253dfa",
+      "path": "mods/1.7.10-ASJCore-1.4.3.1.jar",
+      "hash": "cec3de4fcf2db433d4d532f7f3b3b003e5f78565",
       "force": true,
       "type": "addon"
     },
@@ -466,8 +466,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/falsepatternlib-mc1.7.10-1.5.9.jar",
-      "hash": "99cfb66b73b67abe2ed5f974bc672be025652986",
+      "path": "mods/falsepatternlib-mc1.7.10-1.5.10.jar",
+      "hash": "0d78f5e45e2cb8788fb72d1cb44a184b6f3f3c1f",
       "force": true,
       "type": "addon"
     },
