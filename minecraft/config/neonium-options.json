@@ -28,6 +28,6 @@
     "always_defer_chunk_updates": false
   },
   "notifications": {
-    "hide_donation_button": false
+    "hide_donation_button": true
   }
 }
