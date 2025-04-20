@@ -2,7 +2,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 2,
   "name": "Oldium Optimized 1.12.2",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "DHJComical",
   "description": "",
   "fileApi": "",
@@ -36,6 +36,12 @@
     {
       "path": "config/aquaacrobatics_core.cfg",
       "hash": "f27e837e2600edb4177f6409b06236d1f48a1cb8",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/astatine.properties",
+      "hash": "d40f8030cce6bbaa62638ec1e727893de58c7265",
       "force": true,
       "type": "addon"
     },
@@ -221,7 +227,7 @@
     },
     {
       "path": "config/Gnetum.cfg",
-      "hash": "14cd4e12214b2a54bf4e898a7e22c4acceb4f3d8",
+      "hash": "60a91bb8463f7c3472b1c6890262f0e911705b66",
       "force": true,
       "type": "addon"
     },
@@ -251,7 +257,7 @@
     },
     {
       "path": "config/InvTweaks/InvTweaks.cfg",
-      "hash": "d2a31b812cf89ebdbfd95cc573ecf4486c7bf5a5",
+      "hash": "fb27b30543f8fa60153723a5d725cce0d0547690",
       "force": true,
       "type": "addon"
     },
@@ -647,7 +653,7 @@
     },
     {
       "path": "config/splash.properties",
-      "hash": "58e2c59027f420de35b0691c82d4efec079ebb8e",
+      "hash": "60f70e6efd5c5cd9830902412a9e379d042cad22",
       "force": true,
       "type": "addon"
     },
@@ -665,7 +671,7 @@
     },
     {
       "path": "config/time.history",
-      "hash": "5727230c70e1d8594dac7d1d46144e92de9dffdb",
+      "hash": "66a16e690b00f57ea4884414452959ab6258c2d2",
       "force": true,
       "type": "addon"
     },
@@ -766,12 +772,6 @@
       "type": "addon"
     },
     {
-      "path": "mods/+Fugue-0.18.4.jar",
-      "hash": "a868870e15b4647c5da21e2e0d954d60ff9e9d5f",
-      "force": true,
-      "type": "addon"
-    },
-    {
       "path": "mods/1.12.2-unicodefix-1.3.2.jar",
       "hash": "d3590f5beebdfb0dfe1ddfeece40758e937787d8",
       "force": true,
@@ -798,6 +798,12 @@
     {
       "path": "mods/AquaAcrobatics-1.15.4.jar",
       "hash": "098882484be6966b47af3615d43efb9a0f0adef5",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/astatine-1.0.3.jar",
+      "hash": "a4869c8649ba643a718138e581b5b94f8fef9ef1",
       "force": true,
       "type": "addon"
     },
@@ -880,8 +886,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/gnetum-1.1.2.jar",
-      "hash": "bb402cdb17c109efa96a5046ef2602f12399804b",
+      "path": "mods/gnetum-1.2.1.jar",
+      "hash": "a1d9e38a17df81cb98f87537585b61576c3504d4",
       "force": true,
       "type": "addon"
     },
@@ -982,8 +988,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/neonium-1.0.2.jar",
-      "hash": "434bccfd3c96ac56fbfe837ccbd3f747671eafc7",
+      "path": "mods/neonium-1.1.1.jar",
+      "hash": "01657ee30df7beb9b14f84b88bc1db596f88753c",
       "force": true,
       "type": "addon"
     },
@@ -1116,6 +1122,12 @@
     {
       "path": "mods/zume-1.1.4.jar",
       "hash": "e38c66e88e30625475fca7fbf89b11d7d5ba1030",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/[混合修复] hybridfix-0.2.0.jar",
+      "hash": "d8693eb874168cb481124df4d5503ae278cfdb68",
       "force": true,
       "type": "addon"
     },
