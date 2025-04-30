@@ -257,7 +257,7 @@
     },
     {
       "path": "config/InvTweaks/InvTweaks.cfg",
-      "hash": "fb27b30543f8fa60153723a5d725cce0d0547690",
+      "hash": "c3f4b8f24a107e30276e211033294b501922dc26",
       "force": true,
       "type": "addon"
     },
@@ -653,7 +653,7 @@
     },
     {
       "path": "config/splash.properties",
-      "hash": "60f70e6efd5c5cd9830902412a9e379d042cad22",
+      "hash": "0c4d0110994e254451ecafd57f89c160a268cb7c",
       "force": true,
       "type": "addon"
     },
@@ -671,7 +671,7 @@
     },
     {
       "path": "config/time.history",
-      "hash": "66a16e690b00f57ea4884414452959ab6258c2d2",
+      "hash": "c0e304986fd75e96759ab1117e0b218c1077e790",
       "force": true,
       "type": "addon"
     },
@@ -707,7 +707,7 @@
     },
     {
       "path": "config/Universal Tweaks - Bugfixes.cfg",
-      "hash": "f20db748f2ee2e97ddb4561319140c4da37a2d67",
+      "hash": "f20d50308c67cfefcf4480886eb38d48ff63ab40",
       "force": true,
       "type": "addon"
     },
@@ -719,13 +719,13 @@
     },
     {
       "path": "config/Universal Tweaks - Mod Integration.cfg",
-      "hash": "0cf92e3e26410508501e1d5dafd500aef417f2a4",
+      "hash": "9dc0a0b8b836d91a490088ef89f159cd70dfcc02",
       "force": true,
       "type": "addon"
     },
     {
       "path": "config/Universal Tweaks - Tweaks.cfg",
-      "hash": "3b61b0a520d2c5bc036d6e39544fca42a217737f",
+      "hash": "27ebf7d9bc1967169e5df929c5cd99e70df68e7f",
       "force": true,
       "type": "addon"
     },
@@ -750,6 +750,12 @@
     {
       "path": "config/vintagefix.properties",
       "hash": "6ccbe5d323f0da9ee94cb04e23459544294398ea",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "config/xporbclump.cfg",
+      "hash": "6246d20bc38fe906f709122f46bf4469848452a2",
       "force": true,
       "type": "addon"
     },
@@ -880,6 +886,12 @@
       "type": "addon"
     },
     {
+      "path": "mods/Fixeroo-2.3.6b.jar",
+      "hash": "1c46ef2c557751a1a89f0f4f94446e3e3d7f85ec",
+      "force": true,
+      "type": "addon"
+    },
+    {
       "path": "mods/flare-0.5.0.jar",
       "hash": "a84011267bd3ff23a14515143faefd0682ab8d71",
       "force": true,
@@ -898,8 +910,14 @@
       "type": "addon"
     },
     {
-      "path": "mods/HadEnoughItems_1.12.2-4.27.3.jar",
-      "hash": "472fe04559447ecb4e0403fffc095a49c8f0747a",
+      "path": "mods/HadEnoughItems_1.12.2-4.28.0.jar",
+      "hash": "4f8293a80e315cdf0dff509e33273c210a5843ed",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "mods/hybridfix-0.2.0.jar",
+      "hash": "d8693eb874168cb481124df4d5503ae278cfdb68",
       "force": true,
       "type": "addon"
     },
@@ -988,8 +1006,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/neonium-1.1.1.jar",
-      "hash": "01657ee30df7beb9b14f84b88bc1db596f88753c",
+      "path": "mods/neonium-1.1.2.jar",
+      "hash": "69f712d51ae99e9cd315e59b28193dd27c2c8145",
       "force": true,
       "type": "addon"
     },
@@ -1030,8 +1048,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/RenderLib-1.12.2-1.4.3.jar",
-      "hash": "2ed55f924d5612ccd0806a6f193c2f8a11435832",
+      "path": "mods/RenderLib-1.12.2-1.4.5.jar",
+      "hash": "da121ecfd63ea615de9a26276614bb0ab9306d95",
       "force": true,
       "type": "addon"
     },
@@ -1090,8 +1108,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/UniversalTweaks-1.12.2-1.15.0.jar",
-      "hash": "b3101805c7662a43f29ea8c5b17d692ed7822514",
+      "path": "mods/UniversalTweaks-1.12.2-1.15.1.jar",
+      "hash": "623ceda13d719aa6659c99beffba77334c3d45b0",
       "force": true,
       "type": "addon"
     },
@@ -1126,14 +1144,20 @@
       "type": "addon"
     },
     {
-      "path": "mods/[混合修复] hybridfix-0.2.0.jar",
-      "hash": "d8693eb874168cb481124df4d5503ae278cfdb68",
+      "path": "mods/_supermartijn642corelib-1.1.18-forge-mc1.12.jar",
+      "hash": "8da49c5146564659ed28729e4a1cad902296bff9",
       "force": true,
       "type": "addon"
     },
     {
-      "path": "mods/_supermartijn642corelib-1.1.18-forge-mc1.12.jar",
-      "hash": "8da49c5146564659ed28729e4a1cad902296bff9",
+      "path": "resourcepacks/Minecraft-Mod-Language-Modpack.zip",
+      "hash": "2c655ba0b53d8f23c0e52ab53c9eace1d0a59e61",
+      "force": true,
+      "type": "addon"
+    },
+    {
+      "path": "resourcepacks/Minecraft-Mod-Language-Package-1.12.2.zip",
+      "hash": "eb299baa9acfc6a6d354436ee594bb6001a19b47",
       "force": true,
       "type": "addon"
     }
