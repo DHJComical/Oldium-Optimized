@@ -406,8 +406,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/archaicfix-0.7.5.jar",
-      "hash": "d7ac0eb961d7cf3358b1d3a1a9661e21a0a0f6ed",
+      "path": "mods/archaicfix-0.7.6.jar",
+      "hash": "b584eb7dc97e5a2d53445f84a15b1b1b255d108d",
       "force": true,
       "type": "addon"
     },
@@ -478,8 +478,8 @@
       "type": "addon"
     },
     {
-      "path": "mods/gtnhlib-0.6.19.jar",
-      "hash": "db1c2a93f14d41018cc0d6264a9d5daa48083142",
+      "path": "mods/gtnhlib-0.6.21.jar",
+      "hash": "6100ea76fe816278bba1879cb0f10859b2559adc",
       "force": true,
       "type": "addon"
     },
@@ -515,7 +515,7 @@
     },
     {
       "path": "mods/NotEnoughItems-2.7.39-pre-GTNH.jar",
-      "hash": "161117f6f89cc181f00396cd9e20867b2b9372f4",
+      "hash": "e5531ca4d0649c2893b4386b104ded4b057e70fa",
       "force": true,
       "type": "addon"
     },
